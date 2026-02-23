@@ -36,7 +36,7 @@
 				<Event Id="2059548138" Name="Stop_AMB_BG" ObjectPath="\Events\Default Work Unit\Stop_AMB_BG" GUID="{42280F69-B7A1-4E65-8A89-58EFE092EAA3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2240465412" Type="Event" GUID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}" Language="SFX" Hash="{98F69BEB-CF23-23A6-9F51-C208E1547E32}">
+		<SoundBank Id="2240465412" Type="Event" GUID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}" Language="SFX" Hash="{848300D6-D8F5-4254-CA2E-D305D0DA6CFF}">
 			<ObjectPath>Play_AMB_BG</ObjectPath>
 			<ShortName>Play_AMB_BG</ShortName>
 			<Path>Event/Play_AMB_BG.bnk</Path>
@@ -44,11 +44,11 @@
 				<File Id="567783316" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>AMB_BGM.wav</ShortName>
 					<Path>Media/567783316.wem</Path>
-					<CachePath>53/{537EF7D0-F02C-DA5E-2082-E2C9EAC25946}.wem</CachePath>
+					<CachePath>FF/{FF343369-DD28-BF54-96C1-A63393149B1F}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2240465412" Name="Play_AMB_BG" ObjectPath="\Events\Default Work Unit\Play_AMB_BG" GUID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}" DurationType="OneShot" DurationMin="24.011354" DurationMax="24.011354">
+				<Event Id="2240465412" Name="Play_AMB_BG" ObjectPath="\Events\Default Work Unit\Play_AMB_BG" GUID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="567783316"/>
 					</MediaRefs>
@@ -59,5 +59,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5F5DDCAC-9072-8BAE-0D22-43D4C02FA1DB}</FileHash>
+	<FileHash>{07E65C8A-BCDB-CBC8-A00C-4B3CEDFE95FC}</FileHash>
 </SoundBanksInfo>
