@@ -20,6 +20,7 @@ IncrementalSoundBankData.xml
 logRunSetup.txt
 *.bnk
 *.akpk
+*.wem
 
 # ----------------
 # Unity
