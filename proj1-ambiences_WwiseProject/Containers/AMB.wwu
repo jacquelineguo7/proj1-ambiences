@@ -18,6 +18,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="AMB_BGM" ID="{5FEF5731-E52B-47DB-9190-44906E238D6E}" ShortID="717904972">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4BFCFAF3-31BF-42C9-ACDB-37B362A752F6}"/>
