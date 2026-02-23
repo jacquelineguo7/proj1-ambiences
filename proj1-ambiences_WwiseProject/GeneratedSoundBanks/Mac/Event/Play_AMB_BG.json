@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2240465412",
+    "Type": "Event",
+    "GUID": "{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}",
+    "Language": "SFX",
+    "Hash": "{98F69BEB-CF23-23A6-9F51-C208E1547E32}",
+    "ObjectPath": "Play_AMB_BG",
+    "ShortName": "Play_AMB_BG",
+    "Path": "Event/Play_AMB_BG.bnk",
+    "Media": [
+     {
+      "Id": "567783316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_BGM.wav",
+      "Path": "Media/567783316.wem",
+      "CachePath": "53/{537EF7D0-F02C-DA5E-2082-E2C9EAC25946}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2240465412",
+      "Name": "Play_AMB_BG",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_BG",
+      "GUID": "{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "24.011354",
+      "DurationMax": "24.011354",
+      "MediaRefs": [
+       {
+        "Id": "567783316"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3045223865",
+      "Name": "RTPC_PlayerDistance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerDistance",
+      "GUID": "{08374BFD-455F-49E5-8557-45443CA884CB}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1FC8D889-0E48-BE08-A58F-8CDB6EB6F55C}"
+ }
+}

@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BA71B0B0-B187-430C-AAC9-D8CA6DF978B4}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{BA71B0B0-B187-430C-AAC9-D8CA6DF978B4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BA71B0B0-B187-430C-AAC9-D8CA6DF978B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_AMB_BG" ID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}">
+					<ChildrenList>
+						<Action Name="" ID="{374B7901-D354-475C-9BC5-92ADB7E190A6}" ShortID="895484801">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_BGM" ID="{5FEF5731-E52B-47DB-9190-44906E238D6E}" WorkUnitID="{0E51BB3D-54AB-45F2-B81F-49EFD5BC3FF8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_BG" ID="{42280F69-B7A1-4E65-8A89-58EFE092EAA3}">
+					<ChildrenList>
+						<Action Name="" ID="{655E8CF3-E755-46DE-8268-BA694222B736}" ShortID="662086463">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_BGM" ID="{5FEF5731-E52B-47DB-9190-44906E238D6E}" WorkUnitID="{0E51BB3D-54AB-45F2-B81F-49EFD5BC3FF8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

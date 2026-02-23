@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0CBF1F40-9721-092B-EB8A-655E88B7DA6E}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E9AECE52-D504-0F8A-03CC-4C8BFE9FECF9}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,9 +20,44 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="393239870" Name="SFX" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX" GUID="{79BE3E24-304A-4B23-AB12-B42700AE450A}"/>
+				<Bus Id="1117531639" Name="AMB" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\AMB" GUID="{17958B69-2619-44AD-8794-53CAE2F0D1DD}"/>
 				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="3045223865" Name="RTPC_PlayerDistance" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PlayerDistance" GUID="{08374BFD-455F-49E5-8557-45443CA884CB}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2059548138" Type="Event" GUID="{42280F69-B7A1-4E65-8A89-58EFE092EAA3}" Language="SFX" Hash="{2A6CC8A0-E638-E6B1-11EC-6FEA2C1C878B}">
+			<ObjectPath>Stop_AMB_BG</ObjectPath>
+			<ShortName>Stop_AMB_BG</ShortName>
+			<Path>Event/Stop_AMB_BG.bnk</Path>
+			<Events>
+				<Event Id="2059548138" Name="Stop_AMB_BG" ObjectPath="\Events\Default Work Unit\Stop_AMB_BG" GUID="{42280F69-B7A1-4E65-8A89-58EFE092EAA3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2240465412" Type="Event" GUID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}" Language="SFX" Hash="{98F69BEB-CF23-23A6-9F51-C208E1547E32}">
+			<ObjectPath>Play_AMB_BG</ObjectPath>
+			<ShortName>Play_AMB_BG</ShortName>
+			<Path>Event/Play_AMB_BG.bnk</Path>
+			<Media>
+				<File Id="567783316" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>AMB_BGM.wav</ShortName>
+					<Path>Media/567783316.wem</Path>
+					<CachePath>53/{537EF7D0-F02C-DA5E-2082-E2C9EAC25946}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2240465412" Name="Play_AMB_BG" ObjectPath="\Events\Default Work Unit\Play_AMB_BG" GUID="{CD5332DA-0DA2-466E-A1AC-6AC2922441C9}" DurationType="OneShot" DurationMin="24.011354" DurationMax="24.011354">
+					<MediaRefs>
+						<MediaRef Id="567783316"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3045223865" Name="RTPC_PlayerDistance" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PlayerDistance" GUID="{08374BFD-455F-49E5-8557-45443CA884CB}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5BE0CE5E-0C46-BA4B-4D86-C78900CBF138}</FileHash>
+	<FileHash>{7A8E9E78-3071-1ECA-FFF3-54D2075B7449}</FileHash>
 </SoundBanksInfo>

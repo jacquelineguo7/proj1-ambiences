@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e4b669162a44619b8ff948d5b623d2, type: 3}
+  m_Name: CD5332DA-0DA2-466E-A1AC-6AC2922441C9
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Play_AMB_BG
+  id: 2240465412
+  guid: CD5332DA-0DA2-466E-A1AC-6AC2922441C9
+  IsInUserDefinedSoundBank: 0

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2240465412	Play_AMB_BG			\Default Work Unit\Play_AMB_BG	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3045223865	RTPC_PlayerDistance			\Default Work Unit\RTPC_PlayerDistance	
+
